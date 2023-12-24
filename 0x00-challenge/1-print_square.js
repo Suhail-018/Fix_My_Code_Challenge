@@ -6,7 +6,7 @@
     of the program.
 */
 
-const size;
+let size;
 
 if (process.argv.length <= 2) {
     process.stderr.write("Missing argument\n");
